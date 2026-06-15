@@ -1,0 +1,21 @@
+# API keys — never commit these
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Local reference / generated files
+fitfindr-starter/
+pdf_pages/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
