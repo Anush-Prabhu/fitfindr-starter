@@ -1,10 +1,10 @@
-# ThriftThread
+# FitFindr
 
-**ThriftThread** is a multi-tool AI agent that helps you shop secondhand smarter. Describe what you want in plain English — the agent finds matching listings, suggests outfits from your wardrobe, and drafts a shareable fit card.
+**FitFindr** is a multi-tool AI agent that helps you shop secondhand smarter. Describe what you want in plain English — the agent finds matching listings, suggests outfits from your wardrobe, and drafts a shareable fit card.
 
-> Built for **AI201 Week 2** (*Show What You Know: FitFindr*). The assignment codename is **FitFindr**; **ThriftThread** is this implementation's project name.
+> AI201 Week 2 — *Show What You Know: FitFindr*
 
-📹 **Demo video:** *(add your Loom/YouTube link here)*
+📹 **Demo video:** *(add your Loom/YouTube link here — link in README is enough; you do not need to upload the video file to GitHub)*
 
 ---
 
@@ -25,8 +25,8 @@ To fork and run yourself:
 ```bash
 # 1. Fork jamjamgobambam/ai201-project2-fitfindr-starter on GitHub
 # 2. Clone YOUR fork
-git clone https://github.com/YOUR_USER/ai201-project2-fitfindr-starter.git thriftthread
-cd thriftthread
+git clone https://github.com/YOUR_USER/fitfindr-starter.git
+cd fitfindr-starter
 python -m venv .venv
 .venv\Scripts\activate          # Windows
 pip install -r requirements.txt
@@ -188,7 +188,7 @@ Query `designer ballgown size XXS under $5` → error message, `fit_card` stays 
 ## Project structure
 
 ```
-thriftthread/
+fitfindr-starter/
 ├── agent.py              # Planning loop + query parser
 ├── tools.py              # Four tools (3 required + price stretch)
 ├── app.py                # Gradio UI

@@ -1,14 +1,13 @@
-# ThriftThread — Technical Documentation
+# FitFindr — Technical Documentation
 
-**Project name:** ThriftThread  
-**Assignment:** AI201 Week 2 — FitFindr (multi-tool AI agent)  
+**Project:** FitFindr (AI201 Week 2)  
 **Stack:** Python 3.14 · Groq (`llama-3.3-70b-versatile`) · Gradio · pytest
 
 ---
 
 ## 1. Overview
 
-ThriftThread is an agentic thrift-shopping assistant. A user types a natural-language query; the system:
+FitFindr is an agentic thrift-shopping assistant. A user types a natural-language query; the system:
 
 1. Parses intent (item description, size, budget)
 2. Searches a mock listings database
@@ -289,27 +288,7 @@ Copy `.env.example` → `.env`. Never commit `.env` (listed in `.gitignore`).
 
 ---
 
-## 12. Name rationale — ThriftThread
-
-**ThriftThread** was chosen because it captures what the agent does:
-
-- **Thrift** — secondhand shopping, the core domain
-- **Thread** — clothing, and the idea of *threading* data through tools (search → outfit → fit card)
-
-The assignment name **FitFindr** remains in course materials; **ThriftThread** is this repo's project branding. Either name is fine to use in your demo narration.
-
-**Other names considered:**
-
-| Name | Vibe |
-|------|------|
-| RackRunner | Fast agent scanning the rack |
-| SecondStyle | Secondhand + styling |
-| FitScout | Scouts deals and outfits |
-| FitFindr | Official assignment name (use for grading clarity) |
-
----
-
-## 13. Files map
+## 12. Files map
 
 | File | Responsibility |
 |------|----------------|
@@ -323,17 +302,13 @@ The assignment name **FitFindr** remains in course materials; **ThriftThread** i
 
 ---
 
-## 14. Publishing your fork
+## 13. Demo video submission
 
-```bash
-cd E:\AI201\w2
-git init
-git add .
-git commit -m "ThriftThread: FitFindr multi-tool agent implementation"
-# Create repo on GitHub named thriftthread or ai201-project2-fitfindr
-git remote add origin https://github.com/YOUR_USER/thriftthread.git
-git branch -M main
-git push -u origin main
-```
+The assignment asks you to submit a **3–5 minute demo video** through the **Course Portal**, alongside your GitHub repo link. You do **not** need to commit the video file to GitHub.
 
-Update the fork table in `README.md` with your actual repo URL before submitting.
+Typical approach:
+1. Record with Loom, OBS, or Windows Game Bar
+2. Upload to Loom/YouTube (or attach directly in the portal if allowed)
+3. Paste the watch link at the top of `README.md`
+
+See `DEMO_SCRIPT.md` for a recording script.

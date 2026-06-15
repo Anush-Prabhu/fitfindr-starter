@@ -1,6 +1,6 @@
 # FitFindr — planning.md
 
-> **Project name:** ThriftThread (FitFindr implementation, AI201 Week 2)  
+> **Project:** FitFindr (AI201 Week 2)  
 > **Forked from:** [jamjamgobambam/ai201-project2-fitfindr-starter](https://github.com/jamjamgobambam/ai201-project2-fitfindr-starter)
 
 > Design doc written before implementation. Updated when stretch features were added.
