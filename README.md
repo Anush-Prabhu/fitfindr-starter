@@ -14,6 +14,8 @@ This project is a **fork** of the AI201 course starter:
 
 **[jamjamgobambam/ai201-project2-fitfindr-starter](https://github.com/jamjamgobambam/ai201-project2-fitfindr-starter)**
 
+**Repository:** [github.com/Anush-Prabhu/fitfindr-starter](https://github.com/Anush-Prabhu/fitfindr-starter)
+
 **What came from the starter:** mock data (`data/listings.json`, `data/wardrobe_schema.json`), `utils/data_loader.py`, project layout, and assignment scaffolding.
 
 **What was implemented here:** `tools.py`, `agent.py`, `app.py`, `planning.md`, `tests/`, and documentation.
